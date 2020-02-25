@@ -30,7 +30,8 @@ public class PassTemplate {
     /** the max number limit for the coupon */
     private Long limit;
 
-    /** if the coupon has token, token is stored at Redis Set, if needed, fetch from Redis */
+    /** if the coupon has token, token is stored at Redis Set, if needed,
+     * fetch from Redis */
     private Boolean hasToken;
 
     /** the color of the background */

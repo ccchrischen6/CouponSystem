@@ -1,6 +1,6 @@
 package com.imooc.passbook.Security;
 /**
- * <h1>用ThreadLocal 去单独存储每一个线程携带的 Token 信息</h1>
+ * <h1>using ThreadLocal to store the Token message of each thread separately</h1>
  * */
 public class AccessContext {
     private static final ThreadLocal<String> token = new ThreadLocal<String>();
