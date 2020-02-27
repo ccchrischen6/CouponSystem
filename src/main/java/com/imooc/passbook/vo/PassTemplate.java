@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.criteria.CriteriaBuilder;
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * <h1>define the coupon object</h1>

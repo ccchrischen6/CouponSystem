@@ -25,6 +25,6 @@ public enum ErrorCode {
         this.desc = desc;
     }
 
-    Integer getCode(){return this.code;}
-    String getDesc(){return this.desc;}
+    public Integer getCode(){return this.code;}
+    public String getDesc(){return this.desc;}
 }
