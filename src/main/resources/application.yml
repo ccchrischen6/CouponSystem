@@ -3,7 +3,7 @@ spring:
     name: ImoocMerchants
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/passbook?autoReconnect=true
+    url: jdbc:mysql://127.0.0.1:3306/passbook?serverTimezone=UTC&autoReconnect=true
     username: root
     password: '00000000'
   kafka:
